@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Zaki | Personal Portfolio</title>
+</head>
+
+<body>
+
+  <button class="theme-toggle" id="themeToggle" type="button">
+    Dark Mode
+  </button>
+
+  <main class="profile-card">
+
+    <div class="photo-wrapper">
+      <img
+        src="./logo.jfif"
+        alt="Photo of Zaki"
+        class="profile-photo"
+      >
+    </div>
+
+    <div class="status">
+      <span class="status-dot"></span>
+      Welcome to my personal space
+    </div>
+
+    <h1>
+      Hi, my name is <span class="highlight" id="name"></span>
+    </h1>
+
+    <p class="subtitle">
+      Aspiring developer, technology enthusiast, and lifelong learner.
+      Always curious, always building.
+    </p>
+
+    <h2>Fun facts about me</h2>
+
+    <ul class="facts">
+      <li>
+        <span class="fact-icon"></span>
+        <span>21 years old</span>
+      </li>
+
+      <li>
+        <span class="fact-icon"></span>
+        <span>Living in Setif, Algeria</span>
+      </li>
+
+      <li>
+        <span class="fact-icon"></span>
+        <span>I enjoy playing games</span>
+      </li>
+    </ul>
+
+    <a
+      class="social-link"
+      href="https://www.linkedin.com/in/zakaria-sersoub-63a611299/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Connect with me on LinkedIn ↗
+    </a>
+
+    <section class="newsletter">
+      <h2>Join my newsletter</h2>
+
+      <p>
+        Get updates about my projects, ideas, and coding journey.
+      </p>
+
+      <form class="newsletter-form" id="newsletterForm">
+        <input
+          type="email"
+          id="email"
+          placeholder="Enter your email"
+          aria-label="Your email address"
+          required
+        >
+
+        <button class="join-button" type="submit">
+          Join newsletter
+        </button>
+      </form>
+
+      <p class="message" id="message" aria-live="polite"></p>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Zaki. Made with curiosity 💜
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
